@@ -1,0 +1,23 @@
+{
+  "name": "member-management-system-root",
+  "version": "1.0.0",
+  "description": "Member Management System (Mini) - Yarl Ventures Technical Assessment",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "test": "npm --prefix backend test",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "start": "node init && npm --prefix backend start",
+    "dev": "node init && npm --prefix backend run dev"
+  },
+  "keywords": [
+    "mern",
+    "member-management",
+    "rbac",
+    "green-theme"
+  ],
+  "author": "Yarl Ventures Candidate",
+  "license": "ISC"
+}
