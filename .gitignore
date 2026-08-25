@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env.*.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# OS
+Thumbs.db
+config.bat
